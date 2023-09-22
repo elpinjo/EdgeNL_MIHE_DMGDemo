@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
+- serviceName: edge.nl_mihe_dmgdemo.integrations:getCDs
+  packages:
+  - name: EdgeNL_MIHE_DMGDemo
+    version: "1.0"
 packages:
 - name: EdgeNL_MIHE_DMGDemo
   gitServerName: NL_MIHE_Github
