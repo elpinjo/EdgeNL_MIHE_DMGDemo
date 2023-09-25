@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" TIMEOUT="" SERVICE="pub.flow:debugLog" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -112,7 +112,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.:" VALIDATE-IN="" VALIDATE-OUT="">
+<INVOKE TIMEOUT="" SERVICE="edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getCDs" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
