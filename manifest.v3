@@ -11,7 +11,7 @@
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">18</value>
+  <value name="build">19</value>
   <value name="description"></value>
   <value name="created_date">21-09-2023 16:32:49 GMT</value>
   <array name="extendedProperties" type="record" depth="1">
@@ -33,7 +33,7 @@
     </record>
   </array>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2023-11-21T14:02:44.500287001Z</value>
+  <value name="lastUpdated">2023-11-21T14:04:42.273514179Z</value>
   <value name="wmProjectId">flfb4599672899ecd5952cb6</value>
   <value name="creator">Misja Heuveling</value>
 </Values>

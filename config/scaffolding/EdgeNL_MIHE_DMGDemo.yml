@@ -13,50 +13,50 @@ services:
   configurations:
   - name: edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1
     properties:
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
-      value: "5432"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
       value: "10"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
+      value: org.postgresql.ds.PGSimpleDataSource
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
+      value: 192.168.25.5
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
+      value: app
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
+      value: postgres
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
+      value: "{AES}318ro8zum3VRNSVqBfwbb/mpQD9AcPjb19KNd8Vr/8ory1gL8vJh7/Szyt22gDOBHTYmnTL5oWLr6iXEqfR0JmmK1wuN3U1rA1B0VhuZoUw="
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
+      value: "5432"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
       value: "1000"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
       value: "false"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
       value: "0"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
-      value: org.postgresql.ds.PGSimpleDataSource
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
       value: "1"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
-      value: loginTimeout=60;
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
-      value: 192.168.25.5
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
-      value: POSTGRESQL
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
-      value: "10"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
       value: ""
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
-      value: app
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
-      value: postgres
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
-      value: ""
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
-      value: "{AES}318ro8zum3VRNSVqBfwbb/mpQD9AcPjb19KNd8Vr/8ory1gL8vJh7/Szyt22gDOBHTYmnTL5oWLr6iXEqfR0JmmK1wuN3U1rA1B0VhuZoUw="
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
       value: "0"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
-      value: ""
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
-      value: "1000"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
-      value: "0"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
-      value: NO_TRANSACTION
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
       value: postgres
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
+      value: POSTGRESQL
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
+      value: NO_TRANSACTION
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
       value: "false"
 - serviceName: edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
@@ -66,52 +66,56 @@ services:
   configurations:
   - name: edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1
     properties:
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
-      value: "5432"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
       value: "10"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
+      value: org.postgresql.ds.PGSimpleDataSource
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
+      value: 192.168.25.5
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
+      value: app
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
+      value: postgres
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
+      value: "{AES}318ro8zum3VRNSVqBfwbb/mpQD9AcPjb19KNd8Vr/8ory1gL8vJh7/Szyt22gDOBHTYmnTL5oWLr6iXEqfR0JmmK1wuN3U1rA1B0VhuZoUw="
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
+      value: "5432"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
       value: "1000"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
       value: "false"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
       value: "0"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
-      value: org.postgresql.ds.PGSimpleDataSource
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
       value: "1"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
-      value: loginTimeout=60;
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
-      value: 192.168.25.5
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
-      value: POSTGRESQL
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
-      value: "10"
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
       value: ""
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
-      value: app
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
-      value: postgres
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
-      value: ""
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
-      value: "{AES}318ro8zum3VRNSVqBfwbb/mpQD9AcPjb19KNd8Vr/8ory1gL8vJh7/Szyt22gDOBHTYmnTL5oWLr6iXEqfR0JmmK1wuN3U1rA1B0VhuZoUw="
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
       value: "0"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
-      value: ""
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
-      value: "1000"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
-      value: "0"
-    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
-      value: NO_TRANSACTION
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
       value: postgres
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
+      value: POSTGRESQL
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
+      value: NO_TRANSACTION
     - name: artConnection.EdgeNL_MIHE_DMGDemo.edge.nl_mihe_dmgdemo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
       value: "false"
+- serviceName: edge.nl_mihe_dmgdemo.integrations:test
+  packages:
+  - name: EdgeNL_MIHE_DMGDemo
+    version: 1.0.1
 packages:
 - name: EdgeNL_MIHE_DMGDemo
   gitServerName: NL_MIHE_Github
